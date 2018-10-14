@@ -2,7 +2,7 @@
   "name": "@writetome51/array-get-and-remove-middle",
   "version": "1.0.0",
   "description": "",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,7 +22,9 @@
     "url": "https://github.com/writetome51/array-get-and-removers-basic/issues"
   },
   "homepage": "https://github.com/writetome51/array-get-and-removers-basic#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "@writetome51/arrays-match": "latest"
+  },
   "dependencies": {
     "basic-data-handling": "latest",
     "@writetome51/array-get-and-remove-adjacent-at": "latest"
