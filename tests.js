@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var getAndRemoveMiddle_1 = require("./getAndRemoveMiddle");
+var getAndRemoveBetween_1 = require("./lib/getAndRemoveBetween");
 var arraysMatch_1 = require("@writetome51/arrays-match/arraysMatch");
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // Test 1:
-var middle = getAndRemoveMiddle_1.getAndRemoveMiddle(1, arr);
+var middle = getAndRemoveBetween_1.getAndRemoveBetween(1, arr);
 if (arraysMatch_1.arraysMatch(middle, [2, 3, 4, 5, 6, 7, 8, 9]))
     console.log('test 1 passed');
 else
@@ -16,7 +16,7 @@ else
     console.log('test 2 failed');
 // Test 3:
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-middle = getAndRemoveMiddle_1.getAndRemoveMiddle(2, arr);
+middle = getAndRemoveBetween_1.getAndRemoveBetween(2, arr);
 if (arraysMatch_1.arraysMatch(middle, [3, 4, 5, 6, 7, 8]))
     console.log('test 3 passed');
 else
@@ -28,7 +28,7 @@ else
     console.log('test 4 failed');
 // Test 5:
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
-middle = getAndRemoveMiddle_1.getAndRemoveMiddle(4, arr);
+middle = getAndRemoveBetween_1.getAndRemoveBetween(4, arr);
 if (arraysMatch_1.arraysMatch(middle, [5, 6, 7, 8, 9, 10, 11, 12]))
     console.log('test 5 passed');
 else
@@ -40,7 +40,7 @@ else
     console.log('test 6 failed');
 // Test 7:
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
-middle = getAndRemoveMiddle_1.getAndRemoveMiddle(6, arr);
+middle = getAndRemoveBetween_1.getAndRemoveBetween(6, arr);
 if (arraysMatch_1.arraysMatch(middle, [7, 8, 9, 10]))
     console.log('test 7 passed');
 else
@@ -52,7 +52,7 @@ else
     console.log('test 8 failed');
 // Test 9:
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
-middle = getAndRemoveMiddle_1.getAndRemoveMiddle(8, arr);
+middle = getAndRemoveBetween_1.getAndRemoveBetween(8, arr);
 if (arraysMatch_1.arraysMatch(middle, [9]))
     console.log('test 9 passed');
 else
@@ -67,7 +67,7 @@ else
 var errorTriggered = false;
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
 try {
-    middle = getAndRemoveMiddle_1.getAndRemoveMiddle(8, arr);
+    middle = getAndRemoveBetween_1.getAndRemoveBetween(8, arr);
 }
 catch (e) {
     errorTriggered = true;
