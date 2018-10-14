@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var getAndRemoveMiddle_1 = require("./lib/getAndRemoveMiddle");
+var getAndRemoveMiddle_1 = require("./getAndRemoveMiddle");
 var arraysMatch_1 = require("@writetome51/arrays-match/arraysMatch");
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // Test 1:
