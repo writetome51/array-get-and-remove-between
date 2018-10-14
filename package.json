@@ -1,5 +1,5 @@
 {
-  "name": "@writetome51/array-get-and-remove-middle",
+  "name": "@writetome51/array-get-and-remove-between",
   "version": "1.0.0",
   "description": "Removes and returns middle section of an array",
   "main": "index.js",
