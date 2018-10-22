@@ -1,6 +1,6 @@
 Removes and returns middle section of an array.
 The first argument is the number of items at both the beginning and end of the array that you don't want to
- remove.  Example:
+remove.  Example:
 
 let arr = [1,2,3,4,5,6,7,8];
 

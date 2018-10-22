@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-get-and-remove-between",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removes and returns middle section of an array",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
     "array",
     "manipulation",
     "remove",
+    "middle",
     "data"
   ],
   "author": "Steve Thompson",

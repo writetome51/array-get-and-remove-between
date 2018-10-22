@@ -1,5 +1,5 @@
-import { getAndRemoveBetween } from './lib/getAndRemoveBetween';
-import { arraysMatch } from '@writetome51/arrays-match/arraysMatch';
+import { getAndRemoveBetween } from './getAndRemoveBetween';
+import { arraysMatch } from '@writetome51/arrays-match';
 
 
 let arr: any[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
