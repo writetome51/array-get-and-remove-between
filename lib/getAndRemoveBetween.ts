@@ -1,6 +1,6 @@
 import { errorIfNotInteger } from 'basic-data-handling/errorIfNotInteger';
 import { getAndRemoveAdjacentAt } 
-	from '@writetome51/array-get-and-remove-adjacent-at/getAndRemoveAdjacentAt';
+	from '@writetome51/array-get-and-remove-adjacent-at';
 
 
 // Example: if array is [1,2,3,4,5,6,7] , and you call getAndRemoveBetween(2, array)
