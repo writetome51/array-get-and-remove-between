@@ -1,4 +1,4 @@
-import { getAndRemoveBetween } from './getAndRemoveBetween';
+import { getAndRemoveBetween } from './index';
 import { arraysMatch } from '@writetome51/arrays-match';
 
 
