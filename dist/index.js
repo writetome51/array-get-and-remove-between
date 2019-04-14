@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var errorIfNotInteger_1 = require("basic-data-handling/errorIfNotInteger");
+var error_if_not_integer_1 = require("error-if-not-integer");
 var array_get_and_remove_adjacent_at_1 = require("@writetome51/array-get-and-remove-adjacent-at");
 // Example: if array is [1,2,3,4,5,6,7] , and you call getAndRemoveBetween(2, array)
 // the array will be changed to [1,2,6,7] and the function will return [3,4,5] .  It
 // preserves the first 2 items and the last 2.
 function getAndRemoveBetween(numItemsToKeepAtEachEnd, array) {
-    errorIfNotInteger_1.errorIfNotInteger(numItemsToKeepAtEachEnd);
+    error_if_not_integer_1.errorIfNotInteger(numItemsToKeepAtEachEnd);
     if (numItemsToKeepAtEachEnd < 1)
         throw new Error('The number of items to' +
             ' preserve at each end must be at least 1');
